@@ -5,10 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class EmployeePayrollService {
-    public void printData(Object fileIo) {
-    }
-    public enum IOService {CONSOLE_IO, FILE_IO, DB_IO, REST_IO}
-
+    
     public List<EmployeePayroll> employeePayrollList;
 
     public EmployeePayrollService(List<EmployeePayroll> employeePayrollList) {
