@@ -5,12 +5,15 @@ import java.util.List;
 import java.util.Scanner;
 
 public class EmployeePayrollService {
-    private List<EmployeePayroll> employeePayrollList;
+    public void printData(Object fileIo) {
+    }
+    public enum IOService {CONSOLE_IO, FILE_IO, DB_IO, REST_IO}
+
+    public List<EmployeePayroll> employeePayrollList;
 
     public EmployeePayrollService(List<EmployeePayroll> employeePayrollList) {
         this.employeePayrollList = employeePayrollList;
     }
-
 
     public static void main(String[] args) {
         System.out.println("Welcome to Employee Payroll Service program");
